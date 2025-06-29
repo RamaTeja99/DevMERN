@@ -1,0 +1,22 @@
+{
+  "name": "devconnector",
+  "version": "1.0.0",
+  "description": "These Server Sie Code",
+  "license": "MIT",
+  "author": "RamaTeja",
+  "type": "commonjs",
+  "main": "index",
+  "scripts": {
+    "start": "node server",
+    "server":"nodemon server"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "config": "^4.0.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "gravator": "^1.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1"
+  }
+}
